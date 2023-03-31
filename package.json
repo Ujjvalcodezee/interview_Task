@@ -1,0 +1,34 @@
+{
+  "name": "interview_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "pagination": "^0.4.6",
+    "request": "^2.88.2",
+    "underscore": "^1.13.4"
+  }
+}
